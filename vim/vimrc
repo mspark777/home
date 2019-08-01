@@ -1,0 +1,38 @@
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set encoding=utf-8
+set shell=/bin/bash
+set mouse=v
+set clipboard=unnamedplus
+set expandtab
+set showmode
+set showcmd
+set nobackup
+set noswapfile
+set cursorline
+set ruler
+set number
+set norelativenumber
+set lazyredraw
+set title
+set smartcase
+set incsearch
+set showmatch
+set hlsearch
+set smartindent
+set textwidth=80
+set colorcolumn=+1
+set laststatus=2
+set formatoptions-=t
+
+
+set runtimepath^=~/.vim/nerdtree
+
+syntax on
+filetype plugin indent on
+color dracula
+
+"" nerdtree
+let NERDTreeIgnore = [".DS_Store", ".git$", ".vscode", ".pyc"]
+let NERDTreeShowHidden=1
