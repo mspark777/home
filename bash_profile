@@ -29,3 +29,5 @@ GOROOT=${HOME}/Bin/go
 export PATH=${ENV_PATH}:${GOROOT}/bin:${NODEROOT}/bin
 
 set-gopath
+export TERM=screen-256color
+
