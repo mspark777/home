@@ -28,6 +28,7 @@ set formatoptions-=t
 
 
 set runtimepath^=~/.vim/nerdtree
+set runtimepath^=~/.vim/dracula
 
 syntax on
 filetype plugin indent on
@@ -36,3 +37,7 @@ color dracula
 "" nerdtree
 let NERDTreeIgnore = [".DS_Store", ".git$", ".vscode", ".pyc"]
 let NERDTreeShowHidden=1
+
+
+"" intent
+autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2
